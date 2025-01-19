@@ -18,9 +18,39 @@ import {
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { AiFillGithub } from "react-icons/ai";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 
 const About = () => {
+
+  useGSAP(()=>{
+ 
+    gsap.from("#about-me",{
+      x:700,
+      opacity:0,
+      scale:0,
+      delay:2,
+      duration:1,
+      scrollTrigger:true,
+    })
+    gsap.from("#skills",{
+      x:-700,
+      opacity:0,
+      scale:0,
+      delay:2,
+      duration:1,
+      scrollTrigger:{
+        trigger:"#skills",
+        markers:true,
+        scroller:"body",
+        start:"top top",
+      }
+    })
+
+
+  },[])
+
   const responsive = {
     superLargeDesktop: {
 

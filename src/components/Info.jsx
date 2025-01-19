@@ -8,6 +8,7 @@ const Info = () => {
       opacity: -2,
       y: 100,
       delay: 2.9,
+      scale:-2,
       stagger: {
         axix: "x",
         amount: 0.5,
@@ -17,6 +18,7 @@ const Info = () => {
       opacity: -2,
       y: 100,
       delay: 2.9,
+      scale:-2,
       stagger: {
         axix: "x",
         amount: 0.5,

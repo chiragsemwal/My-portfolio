@@ -18,6 +18,12 @@ const Hero = () => {
         amount:1.5,
         axis:"x"
 
+      },
+      scrollTrigger:{
+        trigger:"#hero-content",
+        scroller:"body",
+        markers:true,
+        top:"50%",
       }
     })
   },[])
