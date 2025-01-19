@@ -1,5 +1,34 @@
+
+import backgroundLine from "/assets/Line 1.svg";
 import myLogo from "/assets/myLogo.jpeg";
-
-
+import htmlLogo from "/assets/html.png";
+import cssLogo from "/assets/css.png";
+import jslogo from "/assets/js.png";
+import reactLogo from "/assets/React.png";
+import nodeLogo from "/assets/node.png";
+import expressLogo from "/assets/express.png";
+import mongoDbLogo from "/assets/mongoDB.png";
+import vscodeLogo from "/assets/vscode.png";
+import iphonePage from "/assets/iphone-landing-page.png";
+import aldentePage from "/assets/aldente-page.png";
+import adidasPage from "/assets/adidas-page.png";
+import todoList from "/assets/todo.png";
+import weatherPage from "/assets/weather-app.png";
+import myPhoto from "/assets/myPhoto.png";
 
 export const navLogo = myLogo;
+export const html = htmlLogo;
+export const css = cssLogo;
+export const javaScript = jslogo;
+export const react = reactLogo;
+export const node = nodeLogo;
+export const express = expressLogo;
+export const mongodb = mongoDbLogo;
+export const vscode = vscodeLogo;
+export const lineEffect = backgroundLine;
+export const iphone = iphonePage;
+export const aldente = aldentePage;
+export const adidas = adidasPage;
+export const todo = todoList;
+export const weather = weatherPage;
+export const Photo = myPhoto;
