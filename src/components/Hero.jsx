@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
       </div>
       <div id="3d-object" className=" overflow-hidden w-[50%] h-screen sm:w-[50%] sm:h-full">
-        <Spline id="hero-animation" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
+      <Spline id="hero-animation" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
       </div>
 
     </section>
@@ -57,3 +57,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
