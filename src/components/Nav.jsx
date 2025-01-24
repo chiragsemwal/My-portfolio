@@ -25,7 +25,6 @@ const Navbar = () => {
   }, [])
 
   const [isOpen, setIsOpen] = useState(false);
-  console.log("isOpen", isOpen)
   const onToggle = () => setIsOpen((prev) => !prev);
 
   return (
@@ -54,12 +53,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        {/* <div id="nav-items" className={⁠ sm:hidden block ⁠}>
-           {isOpen? <ImCross  color="white" size={27} /> : <AiOutlineMenu onClick={()=>{  }}  color="white" size={27} /> } 
-           <button>
-            <AiOutlineMenu color="white" size={27} />
-           </button>
-          </div> */}
         <div onClick={onToggle} className="bg-white md:hidden border py-1 px-4 flex justify-around items-center gap-3 rounded-md text-font-color"
         >
           {isOpen ?   <ImCross color="black" size={27} />:
