@@ -55,9 +55,9 @@ const Hero = () => {
         </div>
       </div>
       <div className=" h-full overflow-hidden w-[50%]  md:hidden ">
-      <Spline className="block" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
+      <Spline className=" md:hidden block" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
       </div>
-      <div id="3d-object" className=" overflow-hidden w-[50%] h-screen sm:w-[50%] sm:h-full">
+      <div id="3d-object" className=" hidden md:block overflow-hidden w-[50%] h-screen sm:w-[50%] sm:h-full">
       <Spline id="hero-animation" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
       </div>
 
