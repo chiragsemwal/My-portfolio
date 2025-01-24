@@ -8,14 +8,15 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
+    <div className=' overflow-x-hidden '>
     < Nav/>
     <Hero/>
     <Info/>
     <About/>
     <Contact/>
     <Footer/>
-    </>
+    </div>
+    
   )
 }
 
