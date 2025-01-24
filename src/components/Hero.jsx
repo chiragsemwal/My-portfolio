@@ -54,7 +54,7 @@ const Hero = () => {
           <FaInstagramSquare id="hero-animation" size={40} color="white" />
         </div>
       </div>
-      <div className=" h-[350px] overflow-hidden w-[50%] md:hidden block">
+      <div className=" h-[350px] flex flex-col items-start justify-start overflow-hidden w-[50%] md:hidden ">
       <Spline scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
       </div>
       <div id="3d-object" className=" hidden md:block overflow-hidden sm:w-[50%] sm:h-[30%]">
