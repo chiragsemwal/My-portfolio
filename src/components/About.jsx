@@ -103,15 +103,15 @@ const About = () => {
       </div>
 
 
-      <div id="skills" className="flex items-center px-4 pt-4 mt-8 sm:justify-end sm:px-7 sm:py-10">
+      <div id="skills" className="flex items-center md:px-4 pt-4 mt-8 sm:justify-end sm:px-7 sm:py-10">
         <div className=" sm:px-0 sm:items-end  flex flex-col gap-4" id="skils-icons">
-          <h2 className="text-section-color sm:mb-0 mb-7 sm:my-0 font-bold sm:mr-[257px] sm:pl-0 text-5xl">My Skills</h2>
-          <p className="text-font-color whitespace-pre-wrap tracking-tight sm:tracking-normal sm:whitespace-normal font-light sm:pl-0 text-2xl">
+          <h2 className="text-section-color sm:mb-0 mb-7 sm:my-0 font-bold sm:mr-[257px] sm:pl-0 pl-4 text-5xl">My Skills</h2>
+          <p className="text-font-color whitespace-pre-wrap tracking-tight sm:tracking-normal sm:whitespace-normal font-light sm:pl-0 pl-4 md:text-2xl text-[25px]">
             Technologies I've been working
              with recently
           </p>
           <div id="about-me-icons" className="flex  justify-between flex-col gap-4">
-            <div id="container1" className="flex w-screen justify-end pr-7 sm:mx-0 sm:px-0 gap-1 sm:gap-4">
+            <div id="container1" className="flex w-screen justify-end pr-6 sm:mx-0 sm:px-0 gap-2 sm:gap-4">
               <div className="bg-font-color  w-[90px] h-[90px] flex justify-center items-center rounded-lg">
                 <img className=" w-[70px] h-[70px]" src={html} alt="html" />
               </div>
@@ -129,7 +129,7 @@ const About = () => {
                 <img className="w-[70px] h-[70px]" src={react} alt="react" />
               </div>
             </div>
-            <div id="container2" className=" w-screen justify-end pr-7 sm:ml-7 flex gap-2 sm:gap-4">
+            <div id="container2" className=" w-screen justify-end pr-6 sm:ml-7 flex gap-2 sm:gap-4">
               <div className="bg-font-color w-[90px] h-[90px] flex justify-center items-center rounded-lg">
                 <img className="w-[70px] h-[70px]" src={node} alt="node" />
               </div>

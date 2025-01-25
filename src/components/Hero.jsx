@@ -54,13 +54,19 @@ const Hero = () => {
           <FaInstagramSquare id="hero-animation" size={40} color="white" />
         </div>
       </div>
-      <div className=" h-[350px] flex flex-col items-start justify-start overflow-hidden w-[50%] md:hidden ">
-      <Spline scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
-      </div>
-      <div id="3d-object" className=" hidden md:block overflow-hidden md:w-[50%] md:h-[30%]">
-      <Spline id="hero-animation" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" />
-      </div>
+      <div className=" h-[300px] flex justify-start items-start overflow-hidden w-[50%] md:hidden ">
+      {/* <Spline scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" /> */}
+      <Spline scene="https://prod.spline.design/lk1pPLEwh6lt0jXe/scene.splinecode" />
 
+      </div>
+      <div id="3d-object" className=" hidden md:block overflow-hidden w-[50%] h-[50%] ">
+      {/* <Spline id="hero-animation" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" /> */}
+      {/* <Spline id="hero-animation" scene="https://prod.spline.design/rFMMkrryCcp0Ebgq/scene.splinecode" /> */}
+      <Spline scene="https://prod.spline.design/lk1pPLEwh6lt0jXe/scene.splinecode" />
+
+    
+      </div>
+      {/* md:w-[50%] md:h-[20%] */}
     </section>
   );
 };
