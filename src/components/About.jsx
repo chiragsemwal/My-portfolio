@@ -157,13 +157,13 @@ const About = () => {
 
       <div
         id="svg-spliter"
-        className=" w-[79%] sm:block hidden z-0 overflow-hidden p-9 absolute right-[50px] top-[900px] "
+        className=" w-[79%] sm:block hidden z-0 overflow-hidden p-9 absolute left-[15%] top-[105%] "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 1353 1209"
-          transform="rotate(90)"
+          transform="rotate(60)"
         >
           <path
             stroke="#291C3A"
