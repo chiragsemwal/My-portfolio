@@ -163,7 +163,7 @@ const About = () => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 1353 1209"
-          transform="rotate(60)"
+          transform="rotate(90)"
         >
           <path
             stroke="#291C3A"
