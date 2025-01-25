@@ -155,7 +155,7 @@ const About = () => {
         </div>
       </div>
 
-      <div
+      {/* <div
         id="svg-spliter"
         className=" w-[79%] sm:block hidden z-0 overflow-hidden p-9 absolute left-[15%] top-[105%] "
       >
@@ -170,7 +170,7 @@ const About = () => {
             d="m.476 1208.1 184.997-181.3 157.208-66.116 58.067-131.016 247.116-101.733 79.238-205.198 252.931-88.684 201.377-128.574 69.32-209.494L1352.16.43"
           />
         </svg>
-      </div>
+      </div> */}
 
       <div id="projects" className="px-7 relative py-16">
         <div className="flex flex-col gap-4">
